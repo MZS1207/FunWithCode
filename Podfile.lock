@@ -1,0 +1,16 @@
+PODS:
+  - AlertViewLoveNotification (1.4)
+
+DEPENDENCIES:
+  - AlertViewLoveNotification
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AlertViewLoveNotification
+
+SPEC CHECKSUMS:
+  AlertViewLoveNotification: d45583decc62d884680f2069829afeeecb52507d
+
+PODFILE CHECKSUM: 65297bf7cd8bb6a6a27fa73c00400ee5edd9e352
+
+COCOAPODS: 1.5.0

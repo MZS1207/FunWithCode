@@ -1,0 +1,6 @@
+framework module AlertViewLoveNotification {
+  umbrella header "AlertViewLoveNotification-umbrella.h"
+
+  export *
+  module * { export * }
+}

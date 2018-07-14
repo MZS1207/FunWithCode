@@ -1,0 +1,736 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0110532CB823CB967B1EBF68668D8DFB /* Pods-ParseCoinsExampleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4DFC0D06139182A440D0FA2376A6067 /* Pods-ParseCoinsExampleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B89607AF3964006CEC48986CE1AAD03 /* AlertViewLoveNotification-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF5B71D7848CEAB336A48B287DC33CC1 /* AlertViewLoveNotification-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9122394B57F8690709D774E53B97FAFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B0D4CBD6BA7FB29EB5F455471BCEA62A /* AlertViewLoveNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84315F4061611703DE55FA1E1B16AC /* AlertViewLoveNotification.swift */; };
+		B4EC4AEFC82117A1DBE3A91A5443AF7B /* Pods-ParseCoinsExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF84BF5C6CD47B03AFD1CAF22EED2E73 /* Pods-ParseCoinsExample-dummy.m */; };
+		CBC6E0D2F938C8C1A8E5CC11A2CAFF14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DF441C2D4944B25BCFA4CFECE49F09D2 /* Pods-ParseCoinsExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76159C8FE7FF90ECFEE8E2B3028F861C /* Pods-ParseCoinsExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F48048BCAA1AF21521B108C639E57A29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FF589A6F238D5D4ECBEA0160B487EB90 /* AlertViewLoveNotification-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3CD84D2A37D6D0E2DD9F5569B3D1FD /* AlertViewLoveNotification-dummy.m */; };
+		FFEB2885061EE250174C6CE2AAA54C96 /* Pods-ParseCoinsExampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6562E1A515BA851EC615339D53B007E2 /* Pods-ParseCoinsExampleTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B857668B7FF20451AB1CDDAC9635A80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 055D1A169A11A77C1E4F83EBC74D26A8;
+			remoteInfo = "Pods-ParseCoinsExample";
+		};
+		8739CC4D5C7BF66302977482F4B1E071 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AF84C5CF870995BDF5A249ADAB4CE10;
+			remoteInfo = AlertViewLoveNotification;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F67D9E1E94423D9BF6E0A6D5F491B2E /* AlertViewLoveNotification-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlertViewLoveNotification-prefix.pch"; sourceTree = "<group>"; };
+		0F84315F4061611703DE55FA1E1B16AC /* AlertViewLoveNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertViewLoveNotification.swift; path = Pod/Classes/AlertViewLoveNotification.swift; sourceTree = "<group>"; };
+		174C3B9BF7476287A00679CF21522461 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B3CD84D2A37D6D0E2DD9F5569B3D1FD /* AlertViewLoveNotification-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AlertViewLoveNotification-dummy.m"; sourceTree = "<group>"; };
+		2B5D3852B8881B013B039DC618FAF1D8 /* Pods-ParseCoinsExampleTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ParseCoinsExampleTests-frameworks.sh"; sourceTree = "<group>"; };
+		403C8B8AA9278A75990885484655F065 /* Pods-ParseCoinsExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ParseCoinsExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		4FA85307D990B599DB43AE2F047B5212 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		508BB5231C9E8EE068FD447B64B18E68 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		539250C6958F2872D6BFFF4077BB3A1D /* Pods_ParseCoinsExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ParseCoinsExample.framework; path = "Pods-ParseCoinsExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56C4C8615BFAB47AF653D108C320B4B6 /* AlertViewLoveNotification.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlertViewLoveNotification.xcconfig; sourceTree = "<group>"; };
+		5A5A9332F529ABFC6F2D58E3498E5333 /* Pods-ParseCoinsExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ParseCoinsExample.modulemap"; sourceTree = "<group>"; };
+		5B43650FA06CF313A7743C9E999B093E /* Pods_ParseCoinsExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ParseCoinsExampleTests.framework; path = "Pods-ParseCoinsExampleTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DA1C9E5267B4E7B6911941C3117788B /* Pods-ParseCoinsExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ParseCoinsExample-resources.sh"; sourceTree = "<group>"; };
+		65568F0D01B92041DEB856FCC12F0A0C /* Pods-ParseCoinsExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ParseCoinsExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6562E1A515BA851EC615339D53B007E2 /* Pods-ParseCoinsExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ParseCoinsExampleTests-dummy.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66E092DCDDE33BA1C623DBAA6721E1D0 /* Pods-ParseCoinsExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ParseCoinsExample.release.xcconfig"; sourceTree = "<group>"; };
+		6EFE27EC4092050324309ED1BD98892E /* Pods-ParseCoinsExampleTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ParseCoinsExampleTests-resources.sh"; sourceTree = "<group>"; };
+		76159C8FE7FF90ECFEE8E2B3028F861C /* Pods-ParseCoinsExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ParseCoinsExample-umbrella.h"; sourceTree = "<group>"; };
+		7CC78D946E8ACB8E6D3ADBCEDA3E00EA /* AlertViewLoveNotification.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AlertViewLoveNotification.framework; path = AlertViewLoveNotification.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E5B9D614023054A8236E9134229174F /* Pods-ParseCoinsExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ParseCoinsExample.debug.xcconfig"; sourceTree = "<group>"; };
+		92C70D7179CCC49EE7EAF90D010CB2D8 /* Pods-ParseCoinsExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ParseCoinsExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D096877789001A829D86CA92FED4243 /* Pods-ParseCoinsExampleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ParseCoinsExampleTests.modulemap"; sourceTree = "<group>"; };
+		B96DBD9CFA43CF737C9CF2ECB1BEE79D /* Pods-ParseCoinsExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ParseCoinsExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C392303B7005FA9C658A0C83A8C3D218 /* Pods-ParseCoinsExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ParseCoinsExample-frameworks.sh"; sourceTree = "<group>"; };
+		CF84BF5C6CD47B03AFD1CAF22EED2E73 /* Pods-ParseCoinsExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ParseCoinsExample-dummy.m"; sourceTree = "<group>"; };
+		E23D5864E66AE30AABA47C80E6CB5F58 /* AlertViewLoveNotification.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AlertViewLoveNotification.modulemap; sourceTree = "<group>"; };
+		EA0D4DAE6270122EA676E89FA4CC74B1 /* Pods-ParseCoinsExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ParseCoinsExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F4DFC0D06139182A440D0FA2376A6067 /* Pods-ParseCoinsExampleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ParseCoinsExampleTests-umbrella.h"; sourceTree = "<group>"; };
+		FBB4B90FA60DFC3C15E12C57F739404C /* Pods-ParseCoinsExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ParseCoinsExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FF5B71D7848CEAB336A48B287DC33CC1 /* AlertViewLoveNotification-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlertViewLoveNotification-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21B2E0BF1E1CB9348000C994705835CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9122394B57F8690709D774E53B97FAFF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A2C412C4A7670834C6A5C113B2F0D71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48048BCAA1AF21521B108C639E57A29 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FBD7B17FD763B06835B9F8CE82774B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBC6E0D2F938C8C1A8E5CC11A2CAFF14 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BB2B55CE4B81B5543A3E4451E8FE5A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CC78D946E8ACB8E6D3ADBCEDA3E00EA /* AlertViewLoveNotification.framework */,
+				539250C6958F2872D6BFFF4077BB3A1D /* Pods_ParseCoinsExample.framework */,
+				5B43650FA06CF313A7743C9E999B093E /* Pods_ParseCoinsExampleTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F33A45395CEEFB6247623768231AB35 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E23D5864E66AE30AABA47C80E6CB5F58 /* AlertViewLoveNotification.modulemap */,
+				56C4C8615BFAB47AF653D108C320B4B6 /* AlertViewLoveNotification.xcconfig */,
+				1B3CD84D2A37D6D0E2DD9F5569B3D1FD /* AlertViewLoveNotification-dummy.m */,
+				0F67D9E1E94423D9BF6E0A6D5F491B2E /* AlertViewLoveNotification-prefix.pch */,
+				FF5B71D7848CEAB336A48B287DC33CC1 /* AlertViewLoveNotification-umbrella.h */,
+				4FA85307D990B599DB43AE2F047B5212 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AlertViewLoveNotification";
+			sourceTree = "<group>";
+		};
+		41BB8C5A8E2C012C80D36FA34502A2C8 /* AlertViewLoveNotification */ = {
+			isa = PBXGroup;
+			children = (
+				0F84315F4061611703DE55FA1E1B16AC /* AlertViewLoveNotification.swift */,
+				2F33A45395CEEFB6247623768231AB35 /* Support Files */,
+			);
+			name = AlertViewLoveNotification;
+			path = AlertViewLoveNotification;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9D370EBA9B2A5577E22B2279C6230BB7 /* Pods */,
+				0BB2B55CE4B81B5543A3E4451E8FE5A2 /* Products */,
+				E523ECF588BAF4555D4E84D97D31DCCB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9D370EBA9B2A5577E22B2279C6230BB7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41BB8C5A8E2C012C80D36FA34502A2C8 /* AlertViewLoveNotification */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A67F09911D0C9E57222D04097836B1AB /* Pods-ParseCoinsExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				508BB5231C9E8EE068FD447B64B18E68 /* Info.plist */,
+				9D096877789001A829D86CA92FED4243 /* Pods-ParseCoinsExampleTests.modulemap */,
+				FBB4B90FA60DFC3C15E12C57F739404C /* Pods-ParseCoinsExampleTests-acknowledgements.markdown */,
+				B96DBD9CFA43CF737C9CF2ECB1BEE79D /* Pods-ParseCoinsExampleTests-acknowledgements.plist */,
+				6562E1A515BA851EC615339D53B007E2 /* Pods-ParseCoinsExampleTests-dummy.m */,
+				2B5D3852B8881B013B039DC618FAF1D8 /* Pods-ParseCoinsExampleTests-frameworks.sh */,
+				6EFE27EC4092050324309ED1BD98892E /* Pods-ParseCoinsExampleTests-resources.sh */,
+				F4DFC0D06139182A440D0FA2376A6067 /* Pods-ParseCoinsExampleTests-umbrella.h */,
+				EA0D4DAE6270122EA676E89FA4CC74B1 /* Pods-ParseCoinsExampleTests.debug.xcconfig */,
+				403C8B8AA9278A75990885484655F065 /* Pods-ParseCoinsExampleTests.release.xcconfig */,
+			);
+			name = "Pods-ParseCoinsExampleTests";
+			path = "Target Support Files/Pods-ParseCoinsExampleTests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E523ECF588BAF4555D4E84D97D31DCCB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFAA1A4D9E45548EAB48279AD82C497C /* Pods-ParseCoinsExample */,
+				A67F09911D0C9E57222D04097836B1AB /* Pods-ParseCoinsExampleTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EFAA1A4D9E45548EAB48279AD82C497C /* Pods-ParseCoinsExample */ = {
+			isa = PBXGroup;
+			children = (
+				174C3B9BF7476287A00679CF21522461 /* Info.plist */,
+				5A5A9332F529ABFC6F2D58E3498E5333 /* Pods-ParseCoinsExample.modulemap */,
+				65568F0D01B92041DEB856FCC12F0A0C /* Pods-ParseCoinsExample-acknowledgements.markdown */,
+				92C70D7179CCC49EE7EAF90D010CB2D8 /* Pods-ParseCoinsExample-acknowledgements.plist */,
+				CF84BF5C6CD47B03AFD1CAF22EED2E73 /* Pods-ParseCoinsExample-dummy.m */,
+				C392303B7005FA9C658A0C83A8C3D218 /* Pods-ParseCoinsExample-frameworks.sh */,
+				5DA1C9E5267B4E7B6911941C3117788B /* Pods-ParseCoinsExample-resources.sh */,
+				76159C8FE7FF90ECFEE8E2B3028F861C /* Pods-ParseCoinsExample-umbrella.h */,
+				8E5B9D614023054A8236E9134229174F /* Pods-ParseCoinsExample.debug.xcconfig */,
+				66E092DCDDE33BA1C623DBAA6721E1D0 /* Pods-ParseCoinsExample.release.xcconfig */,
+			);
+			name = "Pods-ParseCoinsExample";
+			path = "Target Support Files/Pods-ParseCoinsExample";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6A66B1ABBA85063590856611693E793F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF441C2D4944B25BCFA4CFECE49F09D2 /* Pods-ParseCoinsExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87FEDF4419E321452800322E436066F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0110532CB823CB967B1EBF68668D8DFB /* Pods-ParseCoinsExampleTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98A68EAA1C9D871975AE78656A0AD737 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B89607AF3964006CEC48986CE1AAD03 /* AlertViewLoveNotification-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		055D1A169A11A77C1E4F83EBC74D26A8 /* Pods-ParseCoinsExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3423B360E0CD3DE8AA744CD2D50F555 /* Build configuration list for PBXNativeTarget "Pods-ParseCoinsExample" */;
+			buildPhases = (
+				3643FB26E39E9910018960C84B515810 /* Sources */,
+				2A2C412C4A7670834C6A5C113B2F0D71 /* Frameworks */,
+				6A66B1ABBA85063590856611693E793F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF4361CBA5063346EBC986F2D5AB3979 /* PBXTargetDependency */,
+			);
+			name = "Pods-ParseCoinsExample";
+			productName = "Pods-ParseCoinsExample";
+			productReference = 539250C6958F2872D6BFFF4077BB3A1D /* Pods_ParseCoinsExample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6AF84C5CF870995BDF5A249ADAB4CE10 /* AlertViewLoveNotification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A3FB19BEB45B27E24D149893E65F416 /* Build configuration list for PBXNativeTarget "AlertViewLoveNotification" */;
+			buildPhases = (
+				3599926D7480537BAF5FD1713333F02B /* Sources */,
+				21B2E0BF1E1CB9348000C994705835CB /* Frameworks */,
+				98A68EAA1C9D871975AE78656A0AD737 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlertViewLoveNotification;
+			productName = AlertViewLoveNotification;
+			productReference = 7CC78D946E8ACB8E6D3ADBCEDA3E00EA /* AlertViewLoveNotification.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7937983AA43BBFD95D32AAC1D3101E45 /* Pods-ParseCoinsExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89FF45A655C60164CBD240FACF573C0C /* Build configuration list for PBXNativeTarget "Pods-ParseCoinsExampleTests" */;
+			buildPhases = (
+				B4F653F334A7C26476F8F4F44E8C4E50 /* Sources */,
+				7FBD7B17FD763B06835B9F8CE82774B8 /* Frameworks */,
+				87FEDF4419E321452800322E436066F0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52A78936776B1DB48A6E60509198BABD /* PBXTargetDependency */,
+			);
+			name = "Pods-ParseCoinsExampleTests";
+			productName = "Pods-ParseCoinsExampleTests";
+			productReference = 5B43650FA06CF313A7743C9E999B093E /* Pods_ParseCoinsExampleTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0BB2B55CE4B81B5543A3E4451E8FE5A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AF84C5CF870995BDF5A249ADAB4CE10 /* AlertViewLoveNotification */,
+				055D1A169A11A77C1E4F83EBC74D26A8 /* Pods-ParseCoinsExample */,
+				7937983AA43BBFD95D32AAC1D3101E45 /* Pods-ParseCoinsExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3599926D7480537BAF5FD1713333F02B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF589A6F238D5D4ECBEA0160B487EB90 /* AlertViewLoveNotification-dummy.m in Sources */,
+				B0D4CBD6BA7FB29EB5F455471BCEA62A /* AlertViewLoveNotification.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3643FB26E39E9910018960C84B515810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4EC4AEFC82117A1DBE3A91A5443AF7B /* Pods-ParseCoinsExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4F653F334A7C26476F8F4F44E8C4E50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFEB2885061EE250174C6CE2AAA54C96 /* Pods-ParseCoinsExampleTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52A78936776B1DB48A6E60509198BABD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ParseCoinsExample";
+			target = 055D1A169A11A77C1E4F83EBC74D26A8 /* Pods-ParseCoinsExample */;
+			targetProxy = 2B857668B7FF20451AB1CDDAC9635A80 /* PBXContainerItemProxy */;
+		};
+		FF4361CBA5063346EBC986F2D5AB3979 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlertViewLoveNotification;
+			target = 6AF84C5CF870995BDF5A249ADAB4CE10 /* AlertViewLoveNotification */;
+			targetProxy = 8739CC4D5C7BF66302977482F4B1E071 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1EAD030C21FBF1BA158B5D1FABDD357D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66E092DCDDE33BA1C623DBAA6721E1D0 /* Pods-ParseCoinsExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ParseCoinsExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ParseCoinsExample/Pods-ParseCoinsExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		249E7C720082FA86F1DD5C52D98060C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E5B9D614023054A8236E9134229174F /* Pods-ParseCoinsExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ParseCoinsExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ParseCoinsExample/Pods-ParseCoinsExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		24A449E922024B3B7B818C1602DC34E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56C4C8615BFAB47AF653D108C320B4B6 /* AlertViewLoveNotification.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AlertViewLoveNotification/AlertViewLoveNotification-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AlertViewLoveNotification/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AlertViewLoveNotification/AlertViewLoveNotification.modulemap";
+				PRODUCT_MODULE_NAME = AlertViewLoveNotification;
+				PRODUCT_NAME = AlertViewLoveNotification;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		257289DF1A23864BBC69C48E8F8A4B0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56C4C8615BFAB47AF653D108C320B4B6 /* AlertViewLoveNotification.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AlertViewLoveNotification/AlertViewLoveNotification-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AlertViewLoveNotification/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AlertViewLoveNotification/AlertViewLoveNotification.modulemap";
+				PRODUCT_MODULE_NAME = AlertViewLoveNotification;
+				PRODUCT_NAME = AlertViewLoveNotification;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		80DCE940E8A28E4FCE7750DCA0437ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA0D4DAE6270122EA676E89FA4CC74B1 /* Pods-ParseCoinsExampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ParseCoinsExampleTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ParseCoinsExampleTests/Pods-ParseCoinsExampleTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F866CC8088A50073591608BF8CC1995D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 403C8B8AA9278A75990885484655F065 /* Pods-ParseCoinsExampleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ParseCoinsExampleTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ParseCoinsExampleTests/Pods-ParseCoinsExampleTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89FF45A655C60164CBD240FACF573C0C /* Build configuration list for PBXNativeTarget "Pods-ParseCoinsExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80DCE940E8A28E4FCE7750DCA0437ED1 /* Debug */,
+				F866CC8088A50073591608BF8CC1995D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A3FB19BEB45B27E24D149893E65F416 /* Build configuration list for PBXNativeTarget "AlertViewLoveNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24A449E922024B3B7B818C1602DC34E3 /* Debug */,
+				257289DF1A23864BBC69C48E8F8A4B0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3423B360E0CD3DE8AA744CD2D50F555 /* Build configuration list for PBXNativeTarget "Pods-ParseCoinsExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				249E7C720082FA86F1DD5C52D98060C1 /* Debug */,
+				1EAD030C21FBF1BA158B5D1FABDD357D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
